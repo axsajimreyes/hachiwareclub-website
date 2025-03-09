@@ -1,10 +1,18 @@
-/* Reset & General Styles */
+@font-face {
+    font-family: hachi;
+    src: url(/hachiwareclub-website-main/font/000webfont.ttf);
+    font-weight: bold;
+  }
+
 * {
+    font-family: hachi;
+    font-size: 30px;
     padding: 0;
     margin: 0;
     border: 0;
     box-sizing: border-box;
-}
+    cursor: url(/hachiwareclub-website-main/images/chiikawa-hachiware-animated-cursor-2-32x32.png),auto;
+}   
 
 body {
     background: url(/hachiwareclub-website-main/images/ha02-bg-lace.gif) 0px 80px repeat-y fixed;
@@ -30,17 +38,15 @@ body {
 }
 
 .pageHeader {
-    /* grid-column: span 3; */
     background-color: rgba(0, 0, 0, 0.5);
     text-align: center;
     height: 200px;
     width: 1050px;
-    margin: 50px auto 0 auto;
+    margin: 30px auto 0 auto;
 }
 
 .pageHeaderSub {
     grid-column: span 3;
-    background-color: rgba(0, 0, 0, 0.5);
     text-align: center;
     height: 50px;
     display: flex;
