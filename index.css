@@ -2,19 +2,27 @@
     padding: 0;
     margin: 0;
     border: 0;
+    box-sizing: border-box;
 }
 
 body {
-    background-image: url(https://blended-html.com/background-images/bi-background-column.png);
-    background-attachment: fixed;
-    background-size: 100% auto;
+    background: rgb(117, 82, 73);
+}
+
+.container {
+    background: rgb(255, 255, 255);
+    width: 1022px;
+    margin: 50px auto 0 auto;
+    border-width: 10px;
+    border-style: solid;
+    border-image: url("https://loves1ck.neocities.org/img/soft-lace.png"
+        ) 7 round;
 }
 
 .blended_grid {
     display: block;
     width: 1000px;
     overflow: auto;
-    margin: 50px auto 0 auto;
 }
 
 .pageHeader {
@@ -31,6 +39,9 @@ body {
     clear: none;
     height: 50px;
     width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .pageBarLeft {
@@ -101,4 +112,13 @@ body {
     clear: none;
     height: 50px;
     width: 1000px;
+}
+
+marquee{
+    WIDTH: 500PX;
+    BACKGROUND-COLOR: #c0d5db;
+    border-width: 10px;
+    border-style: solid;
+    border-image: url(https://loves1ck.neocities.org/img/soft-lace.png) 7 round;
+
 }
