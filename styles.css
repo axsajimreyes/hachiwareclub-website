@@ -1,8 +1,9 @@
 @font-face {
     font-family: hachi;
-    src: url(/hachiwareclub-website-main/font/000webfont.ttf);
+
+    src: url(font/000webfont.ttf);
     font-weight: bold;
-}
+  }
 
 * {
     font-family: hachi;
@@ -11,17 +12,19 @@
     margin: 0;
     border: 0;
     box-sizing: border-box;
-    cursor: url(/hachiwareclub-website-main/images/chiikawa-hachiware-animated-cursor-2-32x32.png), auto;
-}
+
+
+    cursor: url(images/chiikawa-hachiware-animated-cursor-2-32x32.png), auto;
+}   
 
 body {
-    background: url(/hachiwareclub-website-main/images/ha02-bg-lace.gif) 0px 80px repeat-y fixed;
+    background: url(images/ha02-bg-lace.gif) 0px 80px repeat-y fixed;
 }
 
 .container {
     background: rgb(255, 255, 255);
     width: 1050px;
-    padding: 8px 0px 8px 0px;
+    padding: 8px 0px 8px 0px ;
     margin: 20px auto 0 auto;
     border-width: 10px;
     border-style: solid;
@@ -66,10 +69,8 @@ body {
     gap: 10px;
 }
 
-.pageBarLeftTop,
-.pageBarLeftBottom,
-.pageBarRightTop,
-.pageBarRightBottom {
+.pageBarLeftTop, .pageBarLeftBottom, 
+.pageBarRightTop, .pageBarRightBottom {
     width: 100%;
     height: 295px;
     background-color: rgba(0, 0, 0, 0.5);
